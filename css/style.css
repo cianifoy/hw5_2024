@@ -1,0 +1,36 @@
+.card{
+    flex-basis: 450px; /*basis adds an initial size to the element. That is the base size when changes are going to be happening  */
+}
+.pricing{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+@media screen and (min-width: 900px){
+    header{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+    .nav_links{
+        flex-direction: row;
+        /* justify-content: flex-end; */
+        
+    }
+    /* step 12 */
+    .card{
+        flex-basis: 275px;
+    }
+    .pricing{
+        align-items: center;
+    }
+    
+}
+@media all and (prefers-reduced-motion: reduce){
+
+
+}
+@media print{
+
+}
+
